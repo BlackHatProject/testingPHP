@@ -1,0 +1,28 @@
+/* --- ACERDA DE (MAIN) --- */
+
+.main {
+    width: 96%;
+    max-width: 800px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.main__titulo {
+    text-align: center;
+}
+
+.main__img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    float: left;
+}
+
+@media(min-width:768px) {
+    .main {
+        margin: 10px 1% 10px auto;
+        width: 78%;
+    }
+}

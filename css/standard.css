@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    font-family: serif;
+}
+
+div, header, main, section, article, aside, footer, form {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;    
+}
+

@@ -1,0 +1,278 @@
+
+/* INICIAIZAR LA CLASE GRID PARA EL USO DE LAS COLUMNAS*/
+
+.grid {
+    display: grid;
+}
+
+/*ESPACIADO GAP*/
+
+.gap-1 {
+    grid-gap: 0.8em;
+}
+
+.gap-2 {
+    grid-gap: 1.2em;
+}
+
+.gap-3 {
+    grid-gap: 1.5em;
+}
+
+.gap-4 {
+    grid-gap: 1.7em;
+}
+
+.gap-4 {
+    grid-gap: 2em;
+}
+
+.gap-5 {
+    grid-gap: 2.5em;
+}
+
+/* COLUMNA ESTATITAS */
+
+.col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.col-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.col-8 {
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.col-12 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.col-16 {
+    grid-template-columns: repeat(16, 1fr);
+}
+
+/* EXPANSION DE LAS COLUMNAS (ESTATICOS) */
+
+.span-col-2 {
+    grid-column-start: span 2;
+}
+
+.span-col-3 {
+    grid-column-start: span 3;
+}
+
+.span-col-4 {
+    grid-column-start: span 4;
+}
+
+.span-col-6 {
+    grid-column-start: span 6;
+}
+
+.span-col-8 {
+    grid-column-start: span 8;
+}
+
+.span-col-12 {
+    grid-column-start: span 12;
+}
+
+.span-col-16 {
+    grid-column-start: span 16;
+}
+
+@media (min-width:476px) {
+    
+    /* COLUMNAS POR TAMAÑO(PEQUEÑO) */
+    
+    .col-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .col-sm-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .col-sm-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .col-sm-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .col-sm-8 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .col-sm-12 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .col-sm-16 {
+        grid-template-columns: repeat(16, 1fr);
+    }
+    
+    /* CONFIGURACIÓN DE SPAN EN LAS COLUMNAS (PONERLAS AL LADO DE LAS CLASES COLUMNAS) */
+    
+    .span-col-sm-1 {
+        grid-column-start: span 1;
+    }
+    
+    .span-col-sm-2 {
+        grid-column-start: span 2;
+    }
+    
+    .span-col-sm-3 {
+        grid-column-start: span 3;
+    }
+    
+    .span-col-sm-4 {
+        grid-column-start: span 4;
+    }
+    
+    .span-col-sm-6 {
+        grid-column-start: span 6;
+    }
+    
+    .span-col-sm-8 {
+        grid-column-start: span 8;
+    }
+    
+    .span-col-sm-12 {
+        grid-column-start: span 12;
+    }
+    
+    .span-col-sm-16 {
+        grid-column-start: span 16;
+    }
+}
+
+/* COLUMNAS POR TAMAÑOS */
+
+@media (min-width:768px) {
+    
+    /* COLUMNAS POR TAMAÑO(MEDIANO) */
+    .col-md-2 {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .col-md-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .col-md-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .col-md-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .col-md-8 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .col-md-12 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .col-md-16 {
+        grid-template-columns: repeat(16, 1fr);
+    }
+    
+    /* CONFIGURACIÓN DE SPAN EN LAS COLUMNAS (PONERLAS AL LADO DE LAS CLASES COLUMNAS) */
+    
+    .span-col-md-1 {
+        grid-column-start: span 1;
+    }
+    
+    .span-col-md-2 {
+        grid-column-start: span 2;
+    }
+    
+    .span-col-md-3 {
+        grid-column-start: span 3;
+    }
+    
+    .span-col-md-4 {
+        grid-column-start: span 4;
+    }
+    
+    .span-col-md-6 {
+        grid-column-start: span 6;
+    }
+    
+    .span-col-md-8 {
+        grid-column-start: span 8;
+    }
+    
+    .span-col-md-12 {
+        grid-column-start: span 12;
+    }
+}
+
+@media (min-width:1024px) {
+    
+    /* COLUMNAS POR TAMAÑO(LARGO) */
+    
+    .col-lg-2 {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .col-lg-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .col-lg-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .col-lg-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .col-lg-8 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .col-lg-12 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .col-lg-16 {
+        grid-template-columns: repeat(16, 1fr);
+    }
+    
+    /* CONFIGURACIÓN DE SPAN EN LAS COLUMNAS (PONERLAS AL LADO DE LAS CLASES COLUMNAS) */
+    
+    .span-col-lg-2 {
+        grid-column-start: span 2;
+    }
+    
+    .span-col-lg-3 {
+        grid-column-start: span 3;
+    }
+    
+    .span-col-lg-4 {
+        grid-column-start: span 4;
+    }
+    
+    .span-col-lg-6 {
+        grid-column-start: span 6;
+    }
+    
+    .span-col-lg-8 {
+        grid-column-start: span 8;
+    }
+}
